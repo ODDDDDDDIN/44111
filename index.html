@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+    <title></title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class=" k1080">
+        <div class="header">
+            <div class="logo">
+                <img src="images/p1.png">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="resourse.html">Course</a></li>
+                    <li><a href="about.html">About us</a> </li>
+                    <li><a href="neibu.html">Internal site</a></li>
+                </ul>
+            </div>
+            <div class="c">
+            </div>
+        </div>
+        <div class="welcome">
+            <div class="title">
+                <span>&gt;Welcome to ABC&lt;</span>
+            </div>
+            <div class="wl">
+                <h3>
+                    Unique advantages</h3>
+                <p>
+                    The school starts early and has a high starting point. Since its birth, 
+                    it has inherited the fine tradition of higher education, pioneering and 
+                    striving to become stronger.
+                    Actively adapt to the needs of modern teaching development, strengthen the 
+                    construction of digital campus,improve the smart teaching environment, strengthen 
+                    smart governance, and become the first batch of digital campus construction 
+                    experimental schools of vocational colleges in China. Deeply promote "Internet plus teaching",
+                     innovate the new teaching mode of "learning centered", and reconstruct the modern teaching ecology. 
+                     The school actively serves the national "the Belt and Road" strategy, takes the lead in establishing
+                      a Chinese foreign cooperative school, and takes the lead in the overall level of internationalization 
+                      in the province.Focusing on the development of pillar industries and providing strong talents and
+                       scientific and technological guarantee for local economic and social development.</p>
+            </div>
+            <div class="wr">
+                <img src="images/p3.jpg" /><img src="images/p4.jpg" />
+            </div>
+            <div class="c">
+            </div>
+        </div>
+        <div class="campus">
+            <div class="title">
+                <span>&gt;The campus scenery&lt;</span>
+            </div>
+            <div class="banner">
+                <img src="images/p5.png" id="img" width="392px" height="300px;">
+                <script>
+                    var a = ["p5.png", "p6.png", "p9.jpg", "p5.png", "p6.png", "p9.jpg"];
+                    var k = 0;
+                    var time = 3;
+                    var tID;
+                    function nextImg() {
+                        k++;
+                        if (k === a.length)
+                            k = 0;
+                        document.getElementById("img").src = "images/" + a[k];
+                    }
+                    function setTime() {
+                        time--;
+                        if (time <= 0) {
+                            nextImg();
+                            time = 3;
+
+                        }
+                    }
+                    tID = setInterval("setTime()", 1000);
+            </script>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="links">
+                <p>
+                    Footer</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

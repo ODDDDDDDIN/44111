@@ -1,0 +1,109 @@
+﻿*{ margin:0px; padding:0px; 
+    outline:0;} 
+body 
+{
+    line-height:1.5; 
+    font-family: "楷体" ;
+    background:#d1e7d2; 
+    color:#412b1d;
+}
+a{ text-decoration:none;  color:#412b1d;}
+a:hover{ color:#94d5ea; }
+ul,li{ list-style:none; }
+.c{ clear:both; }
+
+.k1080 {
+  width: 1080px;
+  margin: 0 auto;
+  position:relative;
+}
+
+.header{ border-bottom:2px solid #94d5ea; margin-top:40px; }
+.header .logo{ float:left; }
+.header .logo img{ height:70px; 
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);}
+.header .menu{ float:left; margin-left:200px; } 
+.header .menu ul li{ float:left; margin-left:60px; position:relative; }
+.header .menu ul li a{ line-height:70px; font-size:25px; } 
+
+.title{ text-align:center; font-size:40px; margin-bottom:10px; }
+.title span{ background:#c0d1bf; }
+
+.welcome {
+  padding: 10px 20px;
+}
+.welcome .wl{ float:left; width:700px; }
+.welcome .wl h3{ text-align:center; margin-bottom:20px; }
+.welcome .wl p{ text-indent:2em; }
+.welcome .wr{ float:right; width:300px; }
+.campus{ text-align:center; }
+
+.reg {
+  padding: 10px 20px;
+  position:relative;
+}
+.contact { 
+  padding: 10px 5px;
+  overflow:hidden;
+}  
+.pad {
+  padding: 20px;
+  display: block;
+}
+.msg div {
+  padding: 10px;
+} 
+.footer {
+  padding: 10px 20px;
+  background: #c0d1bf;
+  text-align:center;
+}
+.footer p{ font-size:20px;  }
+
+
+.dizhi {
+  padding: 10px 20px;
+  margin-bottom:40px;
+}
+.dizhi ul{ overflow:hidden; }
+.dizhi ul li{ float:left; width:33.33333%; text-align:center; }
+.dizhi h2{ font-size:30px; margin-bottom:20px; }
+table{ width:100%; }
+table, tr, td {
+    border: 1px solid #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #c0d1bf;
+    color: white;
+    table-layout: fixed;
+}
+table a{
+    color: white;}
+    
+    
+.slide {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 20px;
+    background-color: #d6d549;
+    overflow-x: hidden;
+}
+.slide a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+.slide dt a{ 
+     font-size: 20px; color:#000; }
+   
+.slide dd{  
+    background-color: #274e5a;}
+    .slide dd:hover{ 
+    background-color: #d6d549;}
